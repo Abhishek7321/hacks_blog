@@ -93,14 +93,14 @@ const projects = [
     title: "E-commerce Platform Redesign",
     client: "Fashion Boutique",
     description: "Complete redesign and development of an e-commerce platform resulting in 65% increase in conversion rates and 40% reduction in cart abandonment.",
-    image: "https://placehold.co/600x400/120a32/fff",
+    image: "/hacks_v5_images/4.png",
     technologies: ["Next.js", "Shopify", "Tailwind CSS", "Stripe"]
   },
   {
     title: "Corporate Website & CMS",
     client: "Global Consulting Firm",
     description: "Developed a multilingual corporate website with custom CMS, improving content management efficiency by 75% and increasing visitor engagement by 45%.",
-    image: "https://placehold.co/600x400/48b899/fff",
+    image: "/hacks_v5_images/3.png",
     technologies: ["React", "Sanity.io", "Node.js", "i18n"]
   }
 ]
@@ -130,7 +130,7 @@ export default function WebDevelopmentPage() {
             </div>
             <div className="relative">
               <Image
-                src="https://placehold.co/800x600/120a32/fff"
+                src="/hacks_v5_images/blue_3.png"
                 alt="Web Development Services"
                 width={800}
                 height={600}

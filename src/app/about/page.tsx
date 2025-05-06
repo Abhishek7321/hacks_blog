@@ -13,7 +13,7 @@ const team = [
   },
   {
     name: "Ms.Antra",
-    position: "Digital Marketing Director",
+    position: "Digital Marketing Head",
     image: "/hacks_v5_images/antra.jpeg"
   },
   {
@@ -102,7 +102,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-square rounded-xl overflow-hidden">
                 <Image
-                  src="https://placehold.co/600x600/48b899/fff"
+                  src="/hacks_v5_images/Our Story.png"
                   alt="Our Team"
                   width={600}
                   height={600}

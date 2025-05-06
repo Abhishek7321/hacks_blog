@@ -21,7 +21,7 @@ import { Separator } from "@/components/ui/separator"
 const blogPost = {
   title: "Essential SEO Strategies for 2023: Staying Ahead in the Digital Race",
   excerpt: "Discover the most effective SEO techniques that are working in 2023 to improve your website's visibility and organic traffic.",
-  image: "https://placehold.co/1200x600/48b899/fff",
+  image: "/hacks_v5_images/blog_1.png",
   author: "Sarah Johnson",
   authorTitle: "SEO Specialist",
   authorImage: "https://placehold.co/80x80/120a32/fff",

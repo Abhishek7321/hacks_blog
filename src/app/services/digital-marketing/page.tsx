@@ -67,13 +67,13 @@ const caseStudies = [
     client: "GreenTech Solutions",
     industry: "Renewable Energy",
     result: "250% increase in organic traffic and 65% growth in qualified leads within 6 months.",
-    image: "https://placehold.co/600x400/48b899/fff"
+    image: "/hacks_v5_images/1.png"
   },
   {
     client: "Fashion Forward",
     industry: "E-commerce Retail",
     result: "320% increase in social media engagement and 42% growth in online sales.",
-    image: "https://placehold.co/600x400/120a32/fff"
+    image: "/hacks_v5_images/2.png"
   }
 ]
 
@@ -102,7 +102,7 @@ export default function DigitalMarketingPage() {
             </div>
             <div className="relative">
               <Image
-                src="https://placehold.co/800x600/48b899/fff"
+                src="/hacks_v5_images/Digital Marketing Services.mp4"
                 alt="Digital Marketing Services"
                 width={800}
                 height={600}

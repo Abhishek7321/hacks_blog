@@ -78,13 +78,13 @@ const caseStudies = [
     title: "E-learning Platform Redesign",
     client: "EduTech Inc.",
     description: "Transformed a complex e-learning platform with a user-centered redesign, resulting in 40% improved course completion rates and 60% reduction in support requests.",
-    image: "https://placehold.co/600x400/48b899/fff"
+    image: "/hacks_v5_images/E-learn.png"
   },
   {
     title: "Mobile Banking App",
     client: "Digital First Bank",
     description: "Designed an intuitive mobile banking experience focused on accessibility and simplicity, increasing user engagement by 75% and transaction volumes by 50%.",
-    image: "https://placehold.co/600x400/120a32/fff"
+    image: "/hacks_v5_images/Mobile-bank.png"
   }
 ]
 
@@ -120,7 +120,7 @@ export default function UiUxDesignPage() {
             </div>
             <div className="relative">
               <Image
-                src="https://placehold.co/800x600/48b899/fff"
+                src="/hacks_v5_images/blue_2.png"
                 alt="UI/UX Design Services"
                 width={800}
                 height={600}
@@ -163,7 +163,7 @@ export default function UiUxDesignPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <Image
-                src="https://placehold.co/600x500/120a32/fff"
+                src="/hacks_v5_images/E-learn.png"
                 alt="Benefits of Good UI/UX Design"
                 width={600}
                 height={500}

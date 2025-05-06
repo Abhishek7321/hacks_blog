@@ -21,7 +21,7 @@ import { Separator } from "@/components/ui/separator"
 const blogPost = {
   title: "Responsive Web Design Best Practices : Staying Ahead in the Digital Race",
   excerpt: "Discover the most effective Web Design methods that are working in 2023 to improve your website's visibility and organic traffic.",
-  image: "https://placehold.co/1200x600/48b899/fff",
+  image: "/hacks_v5_images/blog_2.png",
   author: "Rahul Joshi",
   authorTitle: "Full-Stack Developer",
   authorImage: "https://placehold.co/80x80/120a32/fff",

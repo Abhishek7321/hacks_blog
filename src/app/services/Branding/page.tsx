@@ -109,7 +109,7 @@ export default function BrandingPage() {
             </div>
             <div className="relative">
               <Image
-                src="https://placehold.co/800x600/120a32/fff"
+                src="/hacks_v5_images/branding.png"
                 alt="Branding Services"
                 width={800}
                 height={600}
