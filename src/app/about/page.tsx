@@ -7,24 +7,24 @@ import { CheckCircle2, Users } from "lucide-react"
 // Team data
 const team = [
   {
-    name: "John Smith",
+    name: "Mr.Aryan thakur",
     position: "CEO & Founder",
-    image: "https://placehold.co/300x300/120a32/fff"
+    image: "/hacks_v5_images/aryannew.jpeg"
   },
   {
-    name: "Sarah Johnson",
+    name: "Ms.Antra",
     position: "Digital Marketing Director",
-    image: "https://placehold.co/300x300/48b899/fff"
+    image: "/hacks_v5_images/antra.jpeg"
   },
   {
-    name: "Amit Patel",
+    name: "Mr.Abhishhek Rai",
     position: "Lead Developer",
-    image: "https://placehold.co/300x300/d4585d/fff"
+    image: "/hacks_v5_images/Abhishek.jpeg"
   },
   {
-    name: "Maria Rodriguez",
-    position: "UI/UX Design Lead",
-    image: "https://placehold.co/300x300/a09cac/fff"
+    name: "Mr.Vimal Singh",
+    position: " CTO ",
+    image: "/hacks_v5_images/vimal.jpeg"
   }
 ]
 

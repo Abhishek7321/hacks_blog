@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -530,11 +531,16 @@ async function saveEdit(id: string) {
 
                 <div className="space-y-2">
                   <Label htmlFor="content">Content</Label>
+                  <div className="border rounded-md p-2 bg-gray-50">
+                    <p className="text-sm text-gray-500 mb-2">
+                      You can use HTML tags for formatting. The content will be displayed as a full blog page when users click on the blog card.
+                    </p>
+                  </div>
                   <Textarea
                     id="content"
                     name="content"
-                    placeholder="Enter the full blog post content"
-                    className="min-h-[200px]"
+                    placeholder="Enter the full blog post content with HTML formatting if needed"
+                    className="min-h-[300px] font-mono text-sm"
                     value={formData.content}
                     onChange={handleInputChange}
                     required
@@ -638,8 +644,8 @@ async function saveEdit(id: string) {
                   <textarea
                     value={editForm.content}
                     onChange={(e) => setEditForm({ ...editForm, content: e.target.value })}
-                    className="textarea w-full"
-                    placeholder="Content"
+                    className="textarea w-full min-h-[200px] font-mono text-sm"
+                    placeholder="Content (HTML formatting supported)"
                   />
                   <div className="flex gap-2 mt-2">
                     <Button size="sm" onClick={() => saveEdit(post.id)}>Save</Button>
@@ -659,6 +665,13 @@ async function saveEdit(id: string) {
                         Edit
                       </Button>
                       <Button
+                        variant="outline"
+                        size="sm"
+                        asChild
+                      >
+                        <Link href={`/blog/${post.id}`} target="_blank">Preview</Link>
+                      </Button>
+                      <Button
                         variant="destructive"
                         size="sm"
                         onClick={() => handleDeletePost(post.id)}
@@ -669,7 +682,7 @@ async function saveEdit(id: string) {
                     </div>
                   </div>
                   <p className="text-sm text-gray-500 mt-1">
-                    {post.date} • {post.readTime || post.read_time} • Categories: {Array.isArray(post.categories) ? post.categories.join(", ") : post.categories}
+                    {post.date} • {post.readTime} • Categories: {Array.isArray(post.categories) ? post.categories.join(", ") : post.categories}
                   </p>
                   <p className="mt-2 text-gray-700">{post.excerpt}</p>
                 </>

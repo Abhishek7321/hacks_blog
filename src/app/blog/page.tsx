@@ -251,7 +251,7 @@ export default function BlogPage() {
   }
 
   // Handle subscription
-  const handleSubscribe = async (e) => {
+  const handleSubscribe = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
 
@@ -333,7 +333,7 @@ export default function BlogPage() {
           : []
 
         // Check if email already exists in localStorage
-        if (existingSubscribers.some(sub => sub.email === email)) {
+        if (existingSubscribers.some((sub: { email: string }) => sub.email === email)) {
           toast.error("This email is already subscribed")
           return
         }
@@ -464,7 +464,7 @@ export default function BlogPage() {
                       </div>
                       <div className="flex items-center gap-1 text-sm text-gray-500">
                         <Clock className="h-4 w-4" />
-                        <span>{post.readTime || post.read_time}</span>
+                        <span>{post.readTime}</span>
                       </div>
                     </div>
                   </div>
