@@ -102,7 +102,7 @@ export default function DigitalMarketingPage() {
             </div>
             <div className="relative">
               <Image
-                src="/hacks_v5_images/Digital Marketing Services.mp4"
+                src="/hacks_v5_images/digital.png"
                 alt="Digital Marketing Services"
                 width={800}
                 height={600}
