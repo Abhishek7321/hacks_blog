@@ -8,7 +8,7 @@ export default function WhatsAppButton() {
   return (
     <div className="fixed bottom-6 right-6 z-50">
       <Link
-        href="https://wa.me/9555764928" // <-- Replace with your WhatsApp number
+        href="https://wa.me/9559993758" // <-- Replace with your WhatsApp number
         target="_blank"
         rel="noopener noreferrer"
         className="block"
