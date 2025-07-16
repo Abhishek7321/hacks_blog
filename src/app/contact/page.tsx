@@ -18,9 +18,9 @@ const contactDetails = {
 }
 
 // EmailJS configuration
-const EMAILJS_SERVICE_ID = "service_hlmp4lv" // Replace with your EmailJS service ID
-const EMAILJS_TEMPLATE_ID = "template_5oyfcs6" // Replace with your EmailJS template ID
-const EMAILJS_USER_ID = "2254khyn7y7otakQu" // Replace with your EmailJS user ID
+const EMAILJS_SERVICE_ID = "service_wfe269e" // Replace with your EmailJS service ID
+const EMAILJS_TEMPLATE_ID = "template_3a3gmkx" // Replace with your EmailJS template ID
+const EMAILJS_USER_ID = "nm-1giK0IbY_KMMV7" // Replace with your EmailJS user ID
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
